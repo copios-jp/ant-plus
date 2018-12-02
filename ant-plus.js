@@ -17,5 +17,6 @@ module.exports = {
 	BicyclePowerSensor: BP.BicyclePowerSensor,
 	BicyclePowerScanner: BP.BicyclePowerScanner,
 	FitnessEquipmentSensor: FE.FitnessEquipmentSensor,
-	FitnessEquipmentScanner: FE.FitnessEquipmentScanner
+	FitnessEquipmentScanner: FE.FitnessEquipmentScanner,
+  getDeviceList: Ant.getDeviceList
 };

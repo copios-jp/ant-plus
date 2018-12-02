@@ -292,6 +292,10 @@ class CancellationTokenListener {
 	}
 }
 
+export const getDeviceList = () => {
+  return usb.getDeviceList();
+}
+
 export class USBDriver extends events.EventEmitter {
 	private static deviceInUse: usb.Device[] = [];
 	private device: usb.Device;
